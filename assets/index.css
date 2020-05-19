@@ -1,143 +1,182 @@
-header{
+header {
     background: url(images/91656.jpg);
     height: calc(40vw - 56px);
     background-position: bottom;
-    background-attachment: fixed;    
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;      
+    background-size: cover;
 }
-h1, h2, h3, h4, h5, p, b, a{
+
+h1,h2,h3,h4,h5,p,b,a {
     color: white;
     font-family: 'Poppins', sans-serif !important;
 }
-section, footer{
+
+section,
+footer {
     padding: 2% 0;
 }
-.botaoparavoltar{
+
+.botaoparavoltar {
     display: none;
 }
-.descricao-card{
+
+.descricao-card {
     color: #1D0063 !important;
 }
-nav{    
+
+nav {
     background-color: #1D0063;
 }
-.center{
+
+.center {
     text-align: center;
 }
-hr{
+
+hr {
     color: #1D0063;
     border: 2px solid;
     border-radius: 20px;
 }
-.arrowup{
-  width: 55px;
-  height: 55px;
-  bottom: 0px;
-  left: 20px;
-  position: fixed;
-  z-index: 1;
+
+.arrowup {
+    width: 55px;
+    height: 55px;
+    bottom: 0px;
+    left: 20px;
+    position: fixed;
+    z-index: 1;
 }
-ol{
+
+ol {
     display: flex;
     flex-flow: wrap;
     height: 100%;
     place-content: center;
 }
-.competencia > li{
+
+.competencia>li {
     font-weight: bold;
     color: white;
     text-shadow: 1px 1px black;
 }
-.icone-certificates{
+
+.icone-certificates {
     width: 80px;
     height: 80px;
     object-fit: cover;
     margin: 15px auto;
     display: block;
 }
-.icone{
+
+.icone {
     width: 100%;
     height: auto;
     object-fit: cover;
     margin-bottom: 10px;
     display: block;
 }
-.card{
+
+.card {
+    margin-bottom: 10px;
     height: 250px;
 }
-img, .card{    
-    transition: linear 1s;    
+
+img,
+.card {
+    transition: linear 1s;
 }
-img:hover, .card:hover, li:hover{
+
+img:hover,
+.card:hover,
+li:hover {
     transform: scale(1.1);
 }
-.nav-item:hover{
-    transform: inherit;      
+
+.nav-item:hover {
+    transform: inherit;
 }
-.logo{
+
+.logo {
     width: 56px;
     height: 56px;
     position: absolute;
     top: 0;
 }
-.ste{
+
+.ste {
     filter: invert(1);
 }
-li{
+
+li {
     align-items: center;
     display: flex;
     place-content: center;
     list-style: none;
-    transition: linear 0.6s; 
+    transition: linear 0.6s;
 }
-.icone-sc:hover{    
+
+.icone-sc:hover {
     background-color: #c9019b;
     border-radius: 10px 0 0 10px;
 }
-.icones-sociais{
+
+.icones-sociais {
     position: fixed;
     right: 0;
     display: flex;
     flex-direction: column;
     top: 240px;
 }
-.contatos{
+
+.contatos {
     margin-bottom: 0 !important;
 }
-.fa{
+
+.fa {
     transform: scale(1.5);
     margin-bottom: 10px;
 }
+
 ::-webkit-scrollbar {
-  width: 12px;
-  position: absolute;
+    width: 12px;
+    position: absolute;
 }
+
 ::-webkit-scrollbar-track {
-  background-color: #C9019B;
-  height: 80px;
+    background-color: #C9019B;
+    height: 80px;
 }
+
 ::-webkit-scrollbar-thumb {
-  background: #1D0063;
-  border-radius: 2px;
+    background: #1D0063;
+    border-radius: 2px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background: lighten(#1D0063, 5%);
-  transition: .5s;
+    background: lighten(#1D0063, 5%);
+    transition: .5s;
 }
-body{
-    background-image: radial-gradient(circle at top right, rgb(108,28,108) 0%, rgb(108,28,108) 3%,rgb(29,0,99) 3%, rgb(29,0,99) 50%,rgb(108, 28, 108) 50%, rgb(108, 28, 108) 60%,rgb(155, 14, 131) 60%, rgb(155, 14, 131) 63%,rgb(201, 1, 155) 63%, rgb(201, 1, 155) 100%);    
+
+body {
+    background-image: radial-gradient(circle at top right, rgb(108, 28, 108) 0%, rgb(108, 28, 108) 3%, rgb(29, 0, 99) 3%, rgb(29, 0, 99) 50%, rgb(108, 28, 108) 50%, rgb(108, 28, 108) 60%, rgb(155, 14, 131) 60%, rgb(155, 14, 131) 63%, rgb(201, 1, 155) 63%, rgb(201, 1, 155) 100%);
 }
+
 .whatsapp {
-  width: 55px;
-  height: 55px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1;
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
 }
-@media(max-width: 770px){
-    header{
+
+@media(max-width: 770px) {
+    header {
         height: calc(60vh - 56px);
+    }
+
+    .competencia {
+        flex-direction: column !important;
     }
 }
