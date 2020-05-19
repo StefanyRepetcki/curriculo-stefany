@@ -7,7 +7,7 @@ header{
     background-size: cover;      
 }
 h1, h2, h3, h4, h5, p, b, a{
-    color: white !important;
+    color: white;
     font-family: 'Poppins', sans-serif !important;
 }
 section, footer{
@@ -15,6 +15,9 @@ section, footer{
 }
 .botaoparavoltar{
     display: none;
+}
+.descricao-card{
+    color: #1D0063 !important;
 }
 nav{    
     background-color: #1D0063;
@@ -24,7 +27,6 @@ nav{
 }
 hr{
     color: #1D0063;
-    width: 12vw;
     border: 2px solid;
     border-radius: 20px;
 }
@@ -61,8 +63,11 @@ ol{
     margin-bottom: 10px;
     display: block;
 }
+.card{
+    height: 250px;
+}
 img, .card{    
-    transition: linear 1s;
+    transition: linear 1s;    
 }
 img:hover, .card:hover, li:hover{
     transform: scale(1.1);
