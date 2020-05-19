@@ -36,6 +36,17 @@ hr{
   position: fixed;
   z-index: 1;
 }
+ol{
+    display: flex;
+    flex-flow: wrap;
+    height: 100%;
+    place-content: center;
+}
+.competencia > li{
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px black;
+}
 .icone-certificates{
     width: 80px;
     height: 80px;
@@ -47,14 +58,17 @@ hr{
     width: 100%;
     height: auto;
     object-fit: cover;
-    margin: 15px auto;
+    margin-bottom: 10px;
     display: block;
 }
-img{    
+img, .card{    
     transition: linear 1s;
 }
-img:hover{
+img:hover, .card:hover, li:hover{
     transform: scale(1.1);
+}
+.nav-item:hover{
+    transform: inherit;      
 }
 .logo{
     width: 56px;
