@@ -14,7 +14,9 @@ h1,h2,h3,h4,h5,p,b,a {
     color: white;
     font-family: 'Poppins', sans-serif !important;
 }
-
+a:hover{
+    text-decoration: none;
+}
 section,
 footer {
     padding: 2% 0;
