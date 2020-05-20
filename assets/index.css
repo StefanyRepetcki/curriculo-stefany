@@ -6,7 +6,10 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.pagina{
+    margin-top: 56px;
+    min-height: 70vh;
+}
 h1,h2,h3,h4,h5,p,b,a {
     color: white;
     font-family: 'Poppins', sans-serif !important;
@@ -160,6 +163,8 @@ li {
 
 body {
     background-image: radial-gradient(circle at top right, rgb(108, 28, 108) 0%, rgb(108, 28, 108) 3%, rgb(29, 0, 99) 3%, rgb(29, 0, 99) 50%, rgb(108, 28, 108) 50%, rgb(108, 28, 108) 60%, rgb(155, 14, 131) 60%, rgb(155, 14, 131) 63%, rgb(201, 1, 155) 63%, rgb(201, 1, 155) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .whatsapp {
